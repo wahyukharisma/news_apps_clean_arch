@@ -1,16 +1,41 @@
-# news_app_clean_arch
+# 📰 News Apps - Clean Architecture (Android)
 
-A new Flutter project.
+This is a **news application** built using **Kotlin** and follows the **Clean Architecture** pattern. It is designed to be modular, scalable, and testable, with a clear separation of concerns between different layers of the application.
 
-## Getting Started
+## ✨ Features
+- ✅ Fetch and display the latest news articles
+- ✅ Category-based news filtering
+- ✅ Search functionality
+- ✅ Offline caching for better user experience
+- ✅ Dark mode support
 
-This project is a starting point for a Flutter application.
+## 🏗️ Tech Stack
+- **Programming Language**: Kotlin
+- **Architecture**: Clean Architecture (Presentation, Domain, Data)
+- **Dependency Injection**: Hilt
+- **Networking**: Retrofit + OkHttp
+- **Coroutines & Flow**: Asynchronous programming
+- **Local Storage**: Room Database for caching
+- **UI**: Jetpack Compose / XML Views
+- **Testing**: JUnit, MockK, Espresso
 
-A few resources to get you started if this is your first Flutter project:
+## 📂 Project Structure
+This project follows the **Clean Architecture** principles, ensuring maintainability and separation of concerns.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+📂 news_apps_clean_arch
+ ├── 📂 app                # Application module (UI layer)
+ ├── 📂 domain             # Business logic & use cases
+ ├── 📂 data               # Repository & data sources
+ ├── 📂 core               # Common utilities and base classes
+ ├── 📂 di                 # Dependency Injection (Hilt)
+ ├── 📂 ui                 # UI components & ViewModels
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Setup & Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/wahyukharisma/news_apps_clean_arch.git
+   ```
+2. Open in Android Studio
+3. Run the project on an emulator or physical device
